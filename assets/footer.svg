@@ -1,0 +1,27 @@
+<svg width="1200" height="160" viewBox="0 0 1200 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#05070d"/>
+      <stop offset="100%" stop-color="#090d18"/>
+    </linearGradient>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2f6bff"/>
+      <stop offset="50%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="160" fill="url(#footBg)"/>
+
+  <path d="M0,40 C300,90 900,0 1200,50 L1200,160 L0,160 Z" fill="url(#waveGrad)" opacity="0.12"/>
+  <path d="M0,60 C300,20 900,110 1200,60" fill="none" stroke="#00e5ff" stroke-width="1.5" opacity="0.5">
+    <animate attributeName="d" values="M0,60 C300,20 900,110 1200,60;M0,60 C300,100 900,20 1200,60;M0,60 C300,20 900,110 1200,60" dur="8s" repeatCount="indefinite"/>
+  </path>
+
+  <text x="600" y="105" font-family="'Consolas','Courier New',monospace" font-size="16" fill="#5ee7ff" text-anchor="middle" letter-spacing="3">// END.OF.TRANSMISSION</text>
+  <text x="600" y="132" font-family="'Consolas','Courier New',monospace" font-size="13" fill="#4a6178" text-anchor="middle" letter-spacing="2">obrigado pela visita — volte sempre</text>
+
+  <g stroke="#123047" stroke-width="1" opacity="0.6">
+    <path d="M20,10 L20,25 M1180,10 L1180,25"/>
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070d"/>
+      <stop offset="50%" stop-color="#0a0f1e"/>
+      <stop offset="100%" stop-color="#05070d"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00e5ff">
+        <animate attributeName="stop-color" values="#00e5ff;#8b5cf6;#00e5ff" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#2f6bff">
+        <animate attributeName="stop-color" values="#2f6bff;#00e5ff;#2f6bff" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#8b5cf6">
+        <animate attributeName="stop-color" values="#8b5cf6;#2f6bff;#8b5cf6" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#123047" stroke-width="1" opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+
+  <!-- scan line -->
+  <rect x="0" y="0" width="1200" height="2" fill="#00e5ff" opacity="0.6">
+    <animate attributeName="y" values="0;298;0" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- corner brackets -->
+  <g stroke="#00e5ff" stroke-width="2" fill="none" opacity="0.8">
+    <path d="M20,20 L20,60 M20,20 L60,20"/>
+    <path d="M1180,20 L1180,60 M1180,20 L1140,20"/>
+    <path d="M20,280 L20,240 M20,280 L60,280"/>
+    <path d="M1180,280 L1180,240 M1180,280 L1140,280"/>
+  </g>
+
+  <text x="600" y="130" font-family="'Consolas','Courier New',monospace" font-size="20" fill="#5ee7ff" text-anchor="middle" letter-spacing="8" opacity="0.85">// SYSTEM.IDENTITY // PARINTINS-AM.NODE</text>
+
+  <text x="600" y="195" font-family="'Consolas','Courier New',monospace" font-size="64" font-weight="700" fill="url(#titleGrad)" text-anchor="middle" filter="url(#glow)" letter-spacing="4">DRAXXRLQ</text>
+
+  <text x="600" y="235" font-family="'Consolas','Courier New',monospace" font-size="16" fill="#7f93b5" text-anchor="middle" letter-spacing="3">full-stack tinkerer :: termux &amp; fedora :: amazonas, brazil</text>
+
+  <line x1="150" y1="255" x2="1050" y2="255" stroke="#1c3a52" stroke-width="1"/>
+  <circle cx="600" cy="255" r="3" fill="#00e5ff">
+    <animate attributeName="r" values="3;6;3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

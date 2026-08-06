@@ -1,0 +1,42 @@
+<svg width="360" height="360" viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="radarSweepGrad" cx="0%" cy="0%" r="100%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="radarBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0a1a2b"/>
+      <stop offset="100%" stop-color="#05070d"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="180" cy="180" r="170" fill="url(#radarBg)" stroke="#123047" stroke-width="2"/>
+  <circle cx="180" cy="180" r="130" fill="none" stroke="#1c3a52" stroke-width="1"/>
+  <circle cx="180" cy="180" r="90" fill="none" stroke="#1c3a52" stroke-width="1"/>
+  <circle cx="180" cy="180" r="50" fill="none" stroke="#1c3a52" stroke-width="1"/>
+  <line x1="10" y1="180" x2="350" y2="180" stroke="#123047" stroke-width="1"/>
+  <line x1="180" y1="10" x2="180" y2="350" stroke="#123047" stroke-width="1"/>
+
+  <g transform="translate(180,180)">
+    <path d="M0,0 L0,-170 A170,170 0 0,1 60,-159 Z" fill="url(#radarSweepGrad)">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- blips -->
+  <circle cx="240" cy="120" r="4" fill="#00ff9c">
+    <animate attributeName="opacity" values="0;1;0" dur="4s" begin="0.3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="130" cy="230" r="4" fill="#ff5d9e">
+    <animate attributeName="opacity" values="0;1;0" dur="4s" begin="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="250" cy="240" r="3.5" fill="#ffd166">
+    <animate attributeName="opacity" values="0;1;0" dur="4s" begin="2.9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="110" cy="120" r="3.5" fill="#8b5cf6">
+    <animate attributeName="opacity" values="0;1;0" dur="4s" begin="0.9s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="180" cy="180" r="3" fill="#e8f1ff"/>
+  <text x="180" y="345" font-family="'Consolas','Courier New',monospace" font-size="12" fill="#5ee7ff" text-anchor="middle" letter-spacing="2">SCANNING :: SKILLS.MAP</text>
+</svg>

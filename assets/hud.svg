@@ -1,0 +1,39 @@
+<svg width="1200" height="90" viewBox="0 0 1200 90" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hudLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#00e5ff" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="1"/>
+      <stop offset="85%" stop-color="#00e5ff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="90" fill="#05070d"/>
+  <rect x="0" y="42" width="1200" height="2" fill="url(#hudLine)"/>
+
+  <g font-family="'Consolas','Courier New',monospace" fill="#5ee7ff" font-size="13" letter-spacing="2">
+    <text x="30" y="25">STATUS: <tspan fill="#00ff9c">ONLINE</tspan></text>
+    <text x="230" y="25">UPTIME: <tspan fill="#e8f1ff">∞ SESSIONS</tspan></text>
+    <text x="470" y="25">LOCATION: <tspan fill="#e8f1ff">PARINTINS, AM</tspan></text>
+    <text x="740" y="25">TZ: <tspan fill="#e8f1ff">UTC-04:00</tspan></text>
+    <text x="930" y="25">SIGNAL:</text>
+  </g>
+
+  <g transform="translate(1030,10)">
+    <rect x="0" y="12" width="4" height="6" fill="#00e5ff"/>
+    <rect x="8" y="8" width="4" height="10" fill="#00e5ff"/>
+    <rect x="16" y="4" width="4" height="14" fill="#00e5ff"/>
+    <rect x="24" y="0" width="4" height="18" fill="#00e5ff">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g font-family="'Consolas','Courier New',monospace" fill="#3d5a78" font-size="12" letter-spacing="1">
+    <text x="30" y="70">BOOT.SEQ :: node · termux · fedora · baileys · mediapipe</text>
+  </g>
+
+  <g stroke="#00e5ff" stroke-width="1.5" fill="none" opacity="0.7">
+    <path d="M4,4 L4,20 M4,4 L20,4"/>
+    <path d="M1196,4 L1196,20 M1196,4 L1180,4"/>
+  </g>
+</svg>

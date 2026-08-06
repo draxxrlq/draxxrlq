@@ -1,0 +1,31 @@
+<svg width="1200" height="140" viewBox="0 0 1200 140" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="matrixFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#05070d" stop-opacity="1"/>
+      <stop offset="10%" stop-color="#05070d" stop-opacity="0"/>
+      <stop offset="90%" stop-color="#05070d" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#05070d" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="140" fill="#05070d"/>
+
+  <g stroke="#12405c" stroke-width="1.5" fill="none" opacity="0.8">
+    <path d="M0,70 H120 V30 H260 V100 H420"/>
+    <path d="M420,100 H520 V50 H700"/>
+    <path d="M700,50 H820 V90 H980 V40 H1200"/>
+    <path d="M120,30 V0 M260,100 V140 M520,50 V0 M820,90 V140 M980,40 V0"/>
+  </g>
+
+  <g fill="#00e5ff">
+    <circle cx="120" cy="30" r="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="420" cy="100" r="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.1s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="50" r="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.7s" begin="0.9s" repeatCount="indefinite"/></circle>
+    <circle cx="980" cy="40" r="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.4s" begin="1.3s" repeatCount="indefinite"/></circle>
+  </g>
+  <g fill="#8b5cf6">
+    <circle cx="260" cy="100" r="3.5"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.9s" begin="0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="820" cy="90" r="3.5"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" begin="1.1s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <rect width="1200" height="140" fill="url(#matrixFade)"/>
+</svg>

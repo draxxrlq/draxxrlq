@@ -1,0 +1,65 @@
+<svg width="820" height="360" viewBox="0 0 820 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="100%" stop-color="#060a14"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="818" height="358" rx="14" fill="url(#termBg)" stroke="#1c3a52" stroke-width="1.5"/>
+
+  <!-- titlebar -->
+  <rect x="1" y="1" width="818" height="36" rx="14" fill="#0d1526"/>
+  <rect x="1" y="24" width="818" height="13" fill="#0d1526"/>
+  <circle cx="24" cy="19" r="6" fill="#ff5f56"/>
+  <circle cx="46" cy="19" r="6" fill="#ffbd2e"/>
+  <circle cx="68" cy="19" r="6" fill="#27c93f"/>
+  <text x="410" y="24" font-family="'Consolas','Courier New',monospace" font-size="12" fill="#5ee7ff" text-anchor="middle" letter-spacing="1">jota@parintins :: ~/zap-bot</text>
+
+  <g font-family="'Consolas','Courier New',monospace" font-size="15" fill="#00ff9c">
+    <text x="24" y="68" opacity="0">
+      $ ssh jota@core.local
+      <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.2s" fill="freeze"/>
+    </text>
+    <text x="24" y="94" fill="#7f93b5" opacity="0">
+      Booting identity module...
+      <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.0s" fill="freeze"/>
+    </text>
+    <text x="24" y="120" opacity="0">
+      [OK] node ▸ termux ▸ fedora linux
+      <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.8s" fill="freeze"/>
+    </text>
+    <text x="24" y="146" opacity="0">
+      [OK] zap-bot.service — baileys online
+      <animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.6s" fill="freeze"/>
+    </text>
+    <text x="24" y="172" opacity="0">
+      [OK] mediapipe.hands — gesture filters loaded
+      <animate attributeName="opacity" values="0;1" dur="0.1s" begin="3.4s" fill="freeze"/>
+    </text>
+    <text x="24" y="198" fill="#ffd166" opacity="0">
+      [WARN] luks passphrase :: removed by user
+      <animate attributeName="opacity" values="0;1" dur="0.1s" begin="4.2s" fill="freeze"/>
+    </text>
+    <text x="24" y="224" opacity="0">
+      [OK] location ▸ Parintins, Amazonas, BR
+      <animate attributeName="opacity" values="0;1" dur="0.1s" begin="5.0s" fill="freeze"/>
+    </text>
+    <text x="24" y="250" fill="#7f93b5" opacity="0">
+      role: student · builder · tinkerer
+      <animate attributeName="opacity" values="0;1" dur="0.1s" begin="5.8s" fill="freeze"/>
+    </text>
+    <text x="24" y="288" fill="#e8f1ff" opacity="0">
+      $ echo "seja bem-vindo(a) ao meu perfil"
+      <animate attributeName="opacity" values="0;1" dur="0.1s" begin="6.6s" fill="freeze"/>
+    </text>
+    <text x="24" y="314" fill="#00e5ff" opacity="0">
+      &gt; seja bem-vindo(a) ao meu perfil
+      <animate attributeName="opacity" values="0;1" dur="0.1s" begin="7.2s" fill="freeze"/>
+    </text>
+  </g>
+
+  <rect x="24" y="326" width="10" height="18" fill="#00e5ff">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" begin="7.2s"/>
+  </rect>
+</svg>
