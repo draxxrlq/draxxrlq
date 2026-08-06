@@ -17,7 +17,7 @@
 
 <img src="assets/divider.svg" width="100%"/>
 
-## `> SOBRE_O_OPERADOR`
+## `> SOBRE O OPERADOR`
 
 <table>
 <tr>
