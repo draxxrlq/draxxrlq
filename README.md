@@ -26,19 +26,19 @@
 ```yaml
 operador:
   alias: jota
-  base: Parintins, Amazonas — Brasil
+  base: parintins, amazonas - brasil
   ocupacao: estudante · desenvolvedor autodidata
-  ambientes: [Termux/Android, Fedora Linux]
-  linguas: [pt-BR, en]
+  ambientes: [termux/android, fedora linux]
+  linguas: [pt-br, en]
   interesses:
-    - automação e bots (Node.js, Baileys)
-    - visão computacional (MediaPipe)
+    - automação e bots (node.js, baileys)
+    - visão computacional (mediapipe)
     - eletrônica DIY / hardware tinkering
     - dados abertos e educação (IBGE/SIDRA)
   filosofia: "construir em cima do que já quebrou uma vez"
 ```
 
-Gosto de pegar uma ideia solta — um bot de WhatsApp, um filtro de webcam, um app de quiz — e levá-la até o ponto em que ela realmente roda em produção, mesmo que "produção" seja um Android rodando Termux às 2h da manhã.
+gosto de pegar uma ideias como bot de whatsapp, um filtro de webcam, um app de quiz, essas coisas
 
 </td>
 <td width="40%" valign="top" align="center">
@@ -51,7 +51,7 @@ Gosto de pegar uma ideia solta — um bot de WhatsApp, um filtro de webcam, um a
 
 <img src="assets/divider.svg" width="100%"/>
 
-## `> STACK_TECNOLOGICA`
+## `> STACK TECNOLOGICA`
 
 <div align="center">
 
@@ -78,7 +78,7 @@ Gosto de pegar uma ideia solta — um bot de WhatsApp, um filtro de webcam, um a
 
 <img src="assets/matrix.svg" width="100%" alt="separador de circuitos"/>
 
-## `> RADAR_DE_HABILIDADES`
+## `> RADAR DE HABILIDADES`
 
 <table>
 <tr>
@@ -93,12 +93,12 @@ Gosto de pegar uma ideia solta — um bot de WhatsApp, um filtro de webcam, um a
 
 | setor | foco atual |
 |---|---|
-| 🟢 `automação` | bots WhatsApp de uso pessoal, agendamento de rotinas |
-| 🟣 `visão computacional` | filtros por gesto com MediaPipe Hands |
+| 🟢 `automação` | bots whatsapp de uso pessoal, agendamento de rotinas |
+| 🟣 `visão computacional` | filtros por gesto com mediapipe hands |
 | 🟡 `dados` | tratamento de bases IBGE/SIDRA para trabalhos escolares |
-| 🔵 `sistemas` | Termux ARM64, chroot, LUKS, diagnóstico de armazenamento |
+| 🔵 `sistemas` | termux ARM64, chroot, LUKS, diagnóstico de armazenamento |
 
-> o radar não busca "dominar tudo" — ele mapeia onde estou investindo tempo *agora*.
+> o radar não busca dominar tudo - ele mapeia onde estou investindo tempo *agora*.
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ Gosto de pegar uma ideia solta — um bot de WhatsApp, um filtro de webcam, um a
 
 <img src="assets/divider.svg" width="100%"/>
 
-## `> LOG_DE_BOOT`
+## `> LOG DE BOOT`
 
 <div align="center">
 <img src="assets/terminal.svg" width="100%" alt="terminal animado de boot"/>
@@ -114,14 +114,14 @@ Gosto de pegar uma ideia solta — um bot de WhatsApp, um filtro de webcam, um a
 
 <img src="assets/divider.svg" width="100%"/>
 
-## `> PROJETOS_EM_EXECUCAO`
+## `> PROJETOS EM EXECUCAO`
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### 🤖 `zap-bot`
-Bot pessoal de WhatsApp construído com **Node.js** + **Baileys**, rodando sobre **Termux**. Comandos sem prefixo, respostas em minúsculo, mensagens automáticas de aniversário e de data especial do casal, integração com a API do iTunes para prévias de música.
+bot pessoal de whatsapp construído com **Node.js** + **Baileys**, rodando sobre **Termux**. Comandos sem prefixo, respostas em minúsculo, mensagens automáticas de aniversário, api de IA e fazer figurinhas, integração com a API do iTunes para prévias de música.
 
 `node` `baileys` `termux` `cron`
 
@@ -129,7 +129,7 @@ Bot pessoal de WhatsApp construído com **Node.js** + **Baileys**, rodando sobre
 <td width="50%" valign="top">
 
 ### ✋ `hand-gesture-filters`
-Projeto em **JavaScript** com **MediaPipe Hands**: aplica filtros visuais dentro da área formada pelos dedos em tempo real, direto na webcam do navegador.
+projeto em **JavaScript** com **MediaPipe Hands**: aplica filtros visuais dentro da área formada pelos dedos em tempo real, direto na webcam do navegador.
 
 `javascript` `mediapipe` `canvas`
 
@@ -139,7 +139,7 @@ Projeto em **JavaScript** com **MediaPipe Hands**: aplica filtros visuais dentro
 <td width="50%" valign="top">
 
 ### 🧩 `quiz-app`
-App de quiz em **React Native** (Expo Snack), tela de login animada com **Moti** e glassmorphism, estrutura modular (`Quiz.js`, `Login.js`, `Botao.js`) e apresentação gerada em `.pptx` com tema dark de editor de código.
+app de quiz em **React Native** (Expo Snack), tela de login animada com **Moti** e glassmorphism, estrutura modular (`Quiz.js`, `Login.js`, `Botao.js`) e apresentação gerada em `.pptx` com tema dark de editor de código.
 
 `react-native` `expo` `moti`
 
@@ -147,7 +147,7 @@ App de quiz em **React Native** (Expo Snack), tela de login animada com **Moti**
 <td width="50%" valign="top">
 
 ### 🌾 `amazonas-em-dados`
-Material educacional sobre produções regionais do Amazonas (mandioca, açaí, pesca, pecuária, cheia sazonal), com gráficos, mapas e infográfico gerados a partir de dados oficiais do IBGE/SIDRA.
+material educacional sobre produções regionais do Amazonas (mandioca, açaí, pesca, pecuária, cheia sazonal), com gráficos, mapas e infográfico gerados a partir de dados oficiais do IBGE/SIDRA.
 
 `python` `dados-abertos` `ibge`
 
@@ -157,7 +157,7 @@ Material educacional sobre produções regionais do Amazonas (mandioca, açaí, 
 
 <img src="assets/matrix.svg" width="100%" alt="separador de circuitos"/>
 
-## `> METRICAS_DO_SISTEMA`
+## `> METRICAS DO SISTEMA`
 
 <div align="center">
 
@@ -169,14 +169,14 @@ Material educacional sobre produções regionais do Amazonas (mandioca, açaí, 
 </div>
 
 <details>
-<summary><b>📈 gráfico de atividade (clique para expandir)</b></summary>
+<summary><b>📈 gráfico de atividade</b></summary>
 <br/>
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=draxxrlq&theme=tokyo-night&bg_color=05070d&color=00e5ff&line=8b5cf6&point=e8f1ff&hide_border=true" width="100%" alt="gráfico de atividade de contribuições"/>
 </details>
 
 <img src="assets/divider.svg" width="100%"/>
 
-## `> COBRA_DE_CONTRIBUICOES`
+## `> COBRA DE CONTRIBUICOES`
 
 <div align="center">
 
@@ -192,7 +192,7 @@ Material educacional sobre produções regionais do Amazonas (mandioca, açaí, 
 
 <img src="assets/matrix.svg" width="100%" alt="separador de circuitos"/>
 
-## `> CANAL_DE_COMUNICACAO`
+## `> CANAL DE COMUNICACAO`
 
 <div align="center">
 
@@ -205,5 +205,5 @@ Material educacional sobre produções regionais do Amazonas (mandioca, açaí, 
 <img src="assets/footer.svg" width="100%" alt="rodapé do sistema"/>
 
 <div align="center">
-<sub>montado à mão em Parintins, Amazonas — sem templates prontos.</sub>
+<sub>...</sub>
 </div>
