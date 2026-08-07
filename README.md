@@ -196,9 +196,9 @@ material educacional sobre produções regionais do Amazonas (mandioca, açaí, 
 
 <div align="center">
 
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-05070d?style=for-the-badge&logo=whatsapp&logoColor=25D366)](#)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-05070d?style=for-the-badge&logo=whatsapp&logoColor=25D366)](https://wa.me/5592992104311)
 [![GitHub](https://img.shields.io/badge/GitHub-05070d?style=for-the-badge&logo=github&logoColor=e8f1ff)](https://github.com/draxxrlq)
-[![Email](https://img.shields.io/badge/Email-05070d?style=for-the-badge&logo=gmail&logoColor=00e5ff)](#)
+[![Email](https://img.shields.io/badge/Email-05070d?style=for-the-badge&logo=gmail&logoColor=00e5ff)](mailto:juancezar54@gmail.com)
 
 </div>
 
